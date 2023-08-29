@@ -193,14 +193,20 @@ footer {
 }
 
 /* bonus-section related styles */
-.bonus-container{
+.bonus-container {
     display: flex;
-    gap:25px;
-    padding: 0px 240px 0px 240px;;
+    gap: 25px;
+    padding: 0px 240px 0px 240px;
 }
-hr{
+hr {
     border: 2px solid #E55473;
     width: 100px;
 }
-
-.bonus-container p:hover, img:hover, 
+.bonus-container:hover{
+    background: rgba(167, 33, 98, 0.15);
+}
+.bonus-container p:hover{
+    color:#E55473;
+    font-size: 25px;
+    font-weight: 700px;
+}
