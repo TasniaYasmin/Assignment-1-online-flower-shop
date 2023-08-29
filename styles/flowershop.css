@@ -14,6 +14,21 @@ body {
     font-weight: 700;
 }
 
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 
 /* header related styles */
 .header {
@@ -39,4 +54,76 @@ body {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 32px;
+}
+
+/* main related styles */
+
+main {
+    /* margin: 0px 240px 0px 240px; */
+}
+
+section {
+    margin-top: 128px;
+}
+
+.feature-container {
+    display: flex;
+    gap: 24px;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-top: 48px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.flower-one {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 75px 0px 75px;
+}
+
+.flower-two {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 117px 41px 57px 41px;
+}
+
+.flower-three {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 67px 75px 0px 75px;
+}
+
+/* no-marks related styles */
+.no-marks-container {
+    display: flex;
+    gap: 356px;
+    padding: 86px 175px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 240px;
+    margin-right: 240px;
+
+
+}
+
+/* hot-deals related styles */
+
+.hot-deals-container{
+    display: flex;
+    gap: 186px;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 400px ;
+}
+.hot-deals-banner{
+    text-align: center;
 }
