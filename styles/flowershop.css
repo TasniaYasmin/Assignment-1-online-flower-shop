@@ -129,6 +129,10 @@ section {
     text-align: center;
 }
 
+#off{
+    color: #E55473;
+}
+
 /* instagram related styles */
 
 .instagram-container {
