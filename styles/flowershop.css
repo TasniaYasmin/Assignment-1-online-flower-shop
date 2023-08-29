@@ -100,7 +100,7 @@ section {
 /* no-marks related styles */
 .no-marks-container {
     display: flex;
-    gap: 356px;
+    gap: 100px;
     padding: 86px 175px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
@@ -129,7 +129,7 @@ section {
     text-align: center;
 }
 
-#off{
+.pink {
     color: #E55473;
 }
 
@@ -165,4 +165,29 @@ input[type='email'] {
 
 /* footer related styles */
 
-footer
+footer {
+    background: #111010;
+    padding: 128px 648px;
+    margin-top: 128px;
+}
+
+.white {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+.section-description-footer {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.copy-right {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
