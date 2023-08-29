@@ -1,0 +1,7 @@
+/* header related styles */
+.header{
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner-content{
+    display: flex;
+}
