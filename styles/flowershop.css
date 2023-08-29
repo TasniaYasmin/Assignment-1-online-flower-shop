@@ -193,3 +193,14 @@ footer {
 }
 
 /* bonus-section related styles */
+.bonus-container{
+    display: flex;
+    gap:25px;
+    padding: 0px 240px 0px 240px;;
+}
+hr{
+    border: 2px solid #E55473;
+    width: 100px;
+}
+
+.bonus-container p:hover, img:hover, 
