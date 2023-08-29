@@ -127,3 +127,12 @@ section {
 .hot-deals-banner{
     text-align: center;
 }
+
+/* instagram related styles */
+
+.instagram-container{
+    display: flex;
+    gap: 24px;
+    margin:48px 240px 0px 240px;
+    
+}
